@@ -1,0 +1,327 @@
+
+
+
+
+/* 
+change:
+
+zebra */
+
+html
+{
+    width: 920px;
+}
+header
+{
+    position: relative;
+}
+
+logoAndText
+{
+    display: inline-block;
+
+}
+
+/* font-family: 'Yellowtail', cursive;
+
+font-family: 'IBM Plex Mono', monospace;
+
+font-family: 'PT Mono', monospace; */
+
+
+
+/* font-family: 'Crimson Text', serif;
+
+font-family: 'Patrick Hand', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+
+ /* "DELICIOUS" */
+.logoText1
+{
+    position: absolute;
+    display: inline-block;
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.5em;
+    margin-top: -0.2em;
+    margin-left: 0.1em;
+}
+
+/* THE BEST FOOD BLOG ON THE WEB.  */
+.logoText2
+{
+    position: absolute;
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6em;
+    margin-top: 3.6em;
+    margin-left: 1em;
+    letter-spacing: -0.3px;
+}
+
+.socialIcons
+{
+    position: absolute;
+    display: inline-block;
+    margin-left: 41em;
+    margin-top: -2.5em;
+}
+
+#pinterestIcon
+{
+    margin-right: 0.7em;
+}
+
+/* two ways to make this strange slash line */
+.slashesBetweenBlocks
+{
+    letter-spacing: -0.1em;
+    color: gray;
+
+}
+
+.slashesBetweenBlocks b
+{
+    font-weight: normal;
+    font-size: 0.3em;
+}
+
+
+
+.slashLine
+{
+    padding: 1.5em 0em 1.5em 0em;
+}
+
+.zebraSlashes
+{
+    height: 13px;
+    border: solid 0px white;
+    
+    background-image: linear-gradient(45deg, #000000 16.67%, #fff 16.67%, #fff 50%, #000000 50%, #000000 66.67%, #fff 66.67%, #fff 100%);
+    background-size: 4.24px 4.24px;
+    
+    opacity: 0.3;
+    margin-top: 2em;
+    /* margin-bottom: 2em; */
+}
+
+.zebraSlashes2
+{
+    height: 13px;
+    border: solid 0px white;
+    
+    background-image: linear-gradient(45deg, #000000 16.67%, #fff 16.67%, #fff 50%, #000000 50%, #000000 66.67%, #fff 66.67%, #fff 100%);
+    background-size: 4.24px 4.24px;
+    
+    opacity: 0.3;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+/* ///////////////////////////////////////////////////////// */
+
+
+ /* BODY */
+
+
+/* ///////////////////////////////////////////////////////// */
+
+#chocolatePizza
+{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 3.5em;
+    margin-bottom: -0.7em;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+}
+
+#postedWord
+{
+    margin-top: 2.5em;
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8em;
+    opacity: 0.4;
+}
+
+.printElements1
+{
+    display: inline-block;
+}
+
+.printElements2
+{
+    margin-top: 8em;
+    display: inline-block;
+    /* margin-left: 39em; */
+    float: right;
+    margin-right: 1em;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8em;
+}
+
+#printIcon
+{
+    display: inline-block;
+}
+
+#wordPrint
+{
+    opacity: 0.4;
+    display: inline-block;
+}
+
+
+
+.middlePart
+{
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.firstCol
+{
+    display: inline-block;   
+    /* line-height: 20px; */
+
+}
+
+.secondCol
+{
+    display: inline-block;
+    margin-left: 13em;
+    float: right;
+}
+
+.listBackground
+{
+    position: relative;
+    text-align: left;
+    color: black;
+    font-family: 'Patrick Hand', cursive; 
+    font-size: 1.25em;
+    /* margin-top: 3em; */
+    
+}
+
+.insideOfPicture
+{
+    position: absolute;
+    margin-top: -14.6em;
+    margin-left: 4em;
+    opacity: 0.7;
+    /* height: 100px; */
+    
+    /* line-height: 0.1em; */
+
+}
+
+input[type="checkbox"] {
+    /* opacity: 0.5; */
+}
+
+
+/* ///////////////////////////////////////////////////////// */
+ /* FOOTER */
+ #vanessaName
+ {
+    font-weight: bold;
+    margin-left: 6em;
+    margin-bottom: 1
+ }
+ #vanessaNameBold
+ {
+    font-weight: bold;
+    margin-bottom: 1.3em;
+ }
+#vanessaQuote
+{
+    margin-left: 6em;
+    margin-top: -5.5em;
+}
+#vanessaQuoteSmall
+{
+    font-size: 0.9em;
+}
+
+#redButton
+{
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+
+
+    font-family: 'IBM Plex Mono', monospace;
+    block-size: 100%;
+    letter-spacing: -0.1em;
+    width: 11em;
+    height: 3em;
+    color: white;
+    display: block;
+    opacity: 1;
+    background: #cf5e5e;
+    margin-left: 43em;
+    margin-top: -5em;
+    float: right;
+}
+
+ /* EVERYTHING BELOW LINE_LOGO_LINE */
+footer
+{
+    position: relative;
+    margin-top: 8em;
+}
+
+
+#lineAtFooter1
+{
+    opacity: 0.3;
+    position: absolute;
+    width: 47%;
+    margin-top: 0em;
+}
+
+#lineAtFooter2
+{
+    opacity: 0.3;
+    width: 43%;
+}
+
+#footerLogo
+{
+    position: absolute;
+    left: 50%;
+    margin-top: -1em;
+}
+
+.veryBottom
+{
+    opacity: 0.3;
+    text-align: center;
+    margin-left: 1.8em;
+    margin-top: 3em;
+}
+
+ /* CHANGE THIS FONT!!!!!  */
+.veryBottomP
+{
+    margin-top: -0.8em;
+    letter-spacing: -0.1em;
+}
